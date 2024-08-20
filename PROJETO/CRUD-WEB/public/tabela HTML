@@ -22,7 +22,7 @@
     <h3 class="h3">Clube anuncia acordo com a Rede do Futebol, que possui software para ver histórico de transferências de cada jogador e checar valores de mecanismos de solidariedade
     </h3>
        
-<div class="divN">
+<div class="div">
             <img src="Imagens/banner.jpg" alt="Uma jornada Alvinegra" ></div>
         <div>
     </div>
@@ -68,7 +68,6 @@
             <li>2 convidados com 60% de desconto</li>
             <li>50% desconto no estacionamento</li>
             <div class="preco"><a class="botao__menu" href=""> 49,90 <strong>mês</strong></a></div>
-            
         </section>
     </div>
 
