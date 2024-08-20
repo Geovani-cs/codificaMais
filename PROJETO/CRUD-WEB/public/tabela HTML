@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botafogo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/HTML - CSS/Landing Page/Imagens/favicon.ico">
+</head>
+<body class="body">
+
+    <main class="divisao">
+       <a href=""> <img src="Imagens/logo.png" width="69" height="77" ></a>
+        
+        <div class="divdoslinks">
+        <a class="botao__menu" href="#sobre">Sobre</a>
+        <a class="botao__menu" href="#planos">Planos</a>
+            </div>   
+    </main>
+      
+    <h1 class="h1">Botafogo firma parceria com plataforma de busca de jogadores</h1>
+    <h3 class="h3">Clube anuncia acordo com a Rede do Futebol, que possui software para ver histórico de transferências de cada jogador e checar valores de mecanismos de solidariedade
+    </h3>
+       
+<div class="div">
+            <img src="Imagens/banner.jpg" alt="Uma jornada Alvinegra" ></div>
+        <div>
+    </div>
+        <h1 class="classe__h1"><a id="sobre">Sobre</a></h1>
+        <h3 class="h3">CLUBE DE REGATAS BOTAFOGO</h3>
+        <div class="divN">
+          <P>  No dia 1º de julho de 1894, nascia na praia de Botafogo o CLUB DE REGATAS BOTAFOGO, uma homenagem a enseada do bairro onde competiam os seus barcos. A sede era em um casarãodemolido no sul da praia, encostado ao Morro do Pasmado, onde hoje termina a Avenida Pasteur. Em 1899, surgiu uma lenda nas águas da Baía de Guanabara.A embarcação botafoguense Divavenceu todas as 22 regatas que disputou, sagrando-se campeã carioca. Em razão desse título, o Botafogo é o único clube do Brasil campeão de três séculos.
+
+            O Club de Regatas Botafogo foi o primeiro clube carioca campeão brasileiro de alguma modalidade esportiva: o remo, em campeonato realizado no Rio de Janeiro em outubro de 1902, com a vitória do atleta Antônio Mendes de Oliveira Castro, que anos mais tarde viria a se tornar presidente do clube.
+
+            Uma década depois da fundação do Regatas, surgia no mesmo bairro de um novo clube de futebol, o Electro Club, primeiro nome dado ao Botafogo Football Club. A associação nasceu de uma conversa entre dois amigos durante a aula. Flávio Ramos e Emmanuel Sodré estudavam no colégio Alfredo Gomes e, durante uma aula de álgebra, trocaram um bilhete que dizia: "O Ithamar tem um clube de football na Rua Martins Ferreira. Vamos fundar outro no Largo dos Leões? Podemos falar aos Werneck, ao Arthur César, ao Vicente e ao Jacques". E assim tudo começou!
+
+
+            </P>
+       </div>
+
+       <h1 class="classe__h1"><a id="planos"> Planos</a></h1>
+       <!-- aqui começa o menu planos-->
+       <div class="div">
+        
+        <!-- secao 1-->
+        <section class="section">
+            <h4 class="h3">GLORIOSO</h4>
+            <li>Check-in gratuito para todos os jogos da casa</li>
+            <li>2 convidados com 60% de desconto</li>
+            <li>50% desconto no estacionamento</li>
+            <div class="preco"><a class="botao__menu" href="">R$ 199,90 <strong>mês</strong></a></div>
+        </section>
+        
+        <!-- secao 2-->
+        <section class="section">
+            <h4 class="h3">ALVINEGRO</h4>
+            <li>Check-in gratuito para todos os jogos da casa</li>
+            <li>2 convidados com 60% de desconto</li>
+            <li>50% desconto no estacionamento</li>
+            <div class="preco"><a class="botao__menu" href="">R$ 119,90 <strong class="strong">mês</strong></a></div>
+        </section>
+
+        <!-- secao 3-->
+        <section class="section">
+            <h4 class="h3">PRETO E BRANCO</h4>
+            <li>Check-in gratuito para todos os jogos da casa</li>
+            <li>2 convidados com 60% de desconto</li>
+            <li>50% desconto no estacionamento</li>
+            <div class="preco"><a class="botao__menu" href=""> 49,90 <strong>mês</strong></a></div>
+        </section>
+    </div>
+
+
+</body>
+</html>

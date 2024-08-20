@@ -1,0 +1,228 @@
+/* comando abaixo é para resetar o css dos navegadores*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); /* comando para importar fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+   
+    margin: 0;
+    padding: 0;
+    }
+
+
+body{
+    height: 100vh; /*comando para oculpar 100% da tela*/
+    box-sizing: border-box;
+    background-color: rgb(251, 250, 250);
+    color:#e7e5e5;
+    
+}
+
+
+
+
+
+span{
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
+
+.titulo{
+    color: #22D4FD;
+}
+
+.nav{
+    color:blue
+}
+
+.divisao{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: auto; 
+    background: #000;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+ 
+ 
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: auto; 
+  /*  background: #000;*/
+    flex-direction:row;
+    color: #000;
+   
+   
+}
+
+.divisao__texto{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.section{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid rgb(6, 6, 6);
+    padding: 50px;  
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-align: justify;
+    align-items: center;
+}
+
+
+.classe__h1{
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        color: #000;
+}
+
+.h1{
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+        margin: auto;
+        width: 50%;
+        padding: 90px;
+        align-items: center;
+        text-align: center;
+        color: #000;
+      }
+
+.h3{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 80%;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    color: #2c2b2b;
+}
+.texto__menu{
+    font-size:20px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.paragrafo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    position:fixed;
+    color: #000;
+}
+.divdoslinks{
+    display: flex;
+    justify-content: space-between;
+}
+.botao{
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.botao__menu{
+    background-color: black;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 19px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.botao__menu:hover {
+  /*  background-color: hsla(184, 85%, 24%, 0.849); /* Green */
+    color:#58d3ee;
+  }
+
+  
+  .botao:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+
+  .divN{
+    
+        width:auto;
+       /* border: 15px solid green;*/
+        padding: 50px;
+        margin: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        color: #2c2b2b;
+        font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  .imagem{
+    align-items: center;
+    margin: auto;
+    width: auto;
+    padding: 25px;
+    justify-content: space-between
+
+  }
+
+  .paragrafo{
+    font-size: 18px;
+    color:#2c2b2b;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  .golden{
+    height: 5px;
+    background: #bc8422;
+    margin-bottom: 40px;
+  }
+
+  .preco{
+    background: #000;
+    color: #e7e5e5;
+    width: 250px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
